@@ -1,0 +1,80 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build
+build/
+DerivedData/
+Build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Generated files
+*.hmap
+*.ipa
+*.app.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# User-specific Xcode files
+*.xcuserdatad
+*.moved-aside
+*.xccheckout
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Firebase
+GoogleService-Info.plist
+
+# Tuist / XcodeGen
+.tuist/
+Derived/
+
+# Mint
+.mint/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
